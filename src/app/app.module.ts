@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -26,6 +27,7 @@ const appRoutes: Routes = [
     ReactiveFormsModule,
     HttpClientModule,
     AppRoutingModule,
+    NgbModule,
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: true }
