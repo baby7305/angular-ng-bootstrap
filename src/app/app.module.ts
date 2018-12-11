@@ -9,6 +9,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { OfficialComponent } from './official/official.component';
+import { BasicComponent } from './basic/basic.component';
+import { StaticComponent } from './static/static.component';
+import { ToggleComponent } from './toggle/toggle.component';
+import { PreventchangeComponent } from './preventchange/preventchange.component';
+import { ConfigComponent } from './config/config.component';
 
 const appRoutes: Routes = [
   { path: '', component: OfficialComponent },
@@ -18,7 +23,12 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    OfficialComponent
+    OfficialComponent,
+    BasicComponent,
+    StaticComponent,
+    ToggleComponent,
+    PreventchangeComponent,
+    ConfigComponent
   ],
   imports: [
     BrowserModule,
