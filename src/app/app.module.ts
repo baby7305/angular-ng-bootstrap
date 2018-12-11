@@ -17,7 +17,12 @@ import { ConfigComponent } from './config/config.component';
 
 const appRoutes: Routes = [
   { path: '', component: OfficialComponent },
-  { path: 'official', component: OfficialComponent }
+  { path: 'official', component: OfficialComponent },
+  { path: 'basic', component: BasicComponent },
+  { path: 'static', component: StaticComponent },
+  { path: 'toggle', component: ToggleComponent },
+  { path: 'preventchange', component: PreventchangeComponent },
+  { path: 'config', component: ConfigComponent }
 ];
 
 @NgModule({
